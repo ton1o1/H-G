@@ -1,8 +1,7 @@
 <?php require_once 'inc/header.php'; ?>
             <div class="logo-bottom">
                 <section class="sky-form">                                  
-                    <label class="radio"><input type="radio" name="radio" checked=""><i></i>Je suis un host</label>
-                    <label class="radio"><input type="radio" name="radio"><i></i>Je suis un guest</label>                                    
+                    <?php require_once 'inc/accountPanel.php'; ?>
                 </section>
             </div>
         </div>      
@@ -20,14 +19,14 @@
                                 <form method="post" action="login.php">
                                     <input type="text" class="email" placeholder="Email" name="login['email']" required=""/>
                                     <input type="password" class="password" placeholder="Mot de passe" name="login['password']" required=""/>        
-                                </form>
                                 <div class="login-bottom login-bottom1">
                                     <div class="submit">
                                         <input type="submit" name="login['submit']" value="CONNEXION"/>
                                     </div>
 
                                     <div class="clear"></div>
-                                </div>  
+                                </div>
+                                </form>  
                             </div>
                         </div>
                         <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
@@ -38,7 +37,6 @@
                                     <input type="text" class="email" placeholder="Email" name="register['email']" required=""/>
                                     <input type="password" class="password" placeholder="Mot de passe" name="register['password']" required=""/> 
                                     <input type="password" class="password" placeholder="Confirmation" name="register['password_confirm']" required=""/>        
-                                </form>
                                 <div class="login-bottom">
                                     <div class="submit">
                                         <input type="submit" value="CREER MON COMPTE"/>
@@ -46,7 +44,8 @@
                                     
                                     <div class="clear"></div>
                                 </div>  
-                            </div>
+                                </form>
+                        </div>
                             
                         </div>                          
                     </div>  
