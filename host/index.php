@@ -1,7 +1,7 @@
-<?php require_once '../inc/header.php'; ?>
+<?php include '../inc/header.php'; ?>
             <div class="logo-bottom">
                 <section class="sky-form">                                  
-                    <?php require_once '../inc/accountPanel.php'; ?>
+                    <?php include '../inc/accountPanel.php'; ?>
                 </section>
             </div>
         </div>      
@@ -9,8 +9,8 @@
             <div class="sap_tabs">
                 <div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
                     <ul class="resp-tabs-list">
-                        <li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>Liste des logements</span></li>
-                        <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><label>/</label><span>Ajouter un logement</span></li>
+                        <li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>Mes logements</span></li>
+                        <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><label>/</label><span>Ajouter</span></li>
                         <div class="clearfix"></div>
                     </ul>                    
                     <div class="resp-tabs-container">
@@ -41,4 +41,4 @@
         </div>  
         <div class="clear"></div>
     </div>  
-<?php require_once '../inc/footer.php'; ?>
+<?php include '../inc/footer.php'; ?>
