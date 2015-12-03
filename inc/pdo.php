@@ -1,6 +1,6 @@
 <?php
 
-    define("DBHOST", "192.168.0.35"); 	//ip du serveur MySQL
+    define("DBHOST", "localhost"); 	//ip du serveur MySQL
     define("DBUSER", "root"); 			//username MySQL
     define("DBPASS", "");				//mot de passe MySQL
     define("DBNAME", "h_g"); 			//nom de la bdd

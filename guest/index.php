@@ -20,7 +20,7 @@ function build_html_flats( $flats )
 	return $flats_html;
 }
 
-$pdo = include('../inc/pdo.php');
+include('../inc/pdo.php');
 
 $statement = $pdo->prepare( 'SELECT * FROM lodging ;');
 $statement->execute();
